@@ -7,10 +7,10 @@ public class CaclAreaVolume {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		Shape[]  shapeArr = new Shape[5];
-		System.out.println("1.Triagle\n2.Rectangle\n3.Sphere\n4.Cube");
+		System.out.println("Enter 5 shapes and their dimensions accordingly:");
 		int opt =0;
 		for(int i=0;i<shapeArr.length;i++) {
-			System.out.println("Enter next Shape\n1.Triagle\n2.Rectangle\n3.Sphere\n4.Cube");
+			System.out.println("Enter Shape\n1.Triagle\n2.Rectangle\n3.Sphere\n4.Cube");
 			opt = scan.nextInt();
 			switch(opt) {
 			case 1:
